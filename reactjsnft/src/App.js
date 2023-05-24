@@ -3,7 +3,7 @@ import './App.css';
 import { Button } from './Component/Button';
 import { Cart } from 'Component/Card';
 import { MainLayout } from 'Component/Layout';
-import Logo1 from 'images/Logo.svg';
+
 import { Routes, Route } from 'react-router-dom';
 import Home from 'Component/Container/Home';
 import About from 'Component/Container/About';
@@ -30,7 +30,7 @@ function App() {
 
         {/* <Cart tittle={"Revenue"} amount={"5.00"} percent={12.3}></Cart> */}
 
-        <MainLayout imagePath={Logo1} main_Tittle={"MyNFT"} sub_Tittle={"NFT Marketplace"}></MainLayout>
+        <MainLayout></MainLayout>
       </header>
     </div>
   );

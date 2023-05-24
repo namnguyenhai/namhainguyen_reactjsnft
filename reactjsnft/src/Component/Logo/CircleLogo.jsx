@@ -5,6 +5,6 @@ const StyledImage = styled.div`
     height: 56px;
 `
 
-export const CircleLogo = ({imagePath}) => {
-    return <StyledImage imagePath={imagePath}><img src={imagePath} alt="" /></StyledImage>
+export const CircleLogo = ({imagepath1}) => {
+    return <StyledImage imagepath1={imagepath1}><img src={imagepath1} alt="" /></StyledImage>
 }

@@ -1,5 +1,7 @@
-import { styled } from "styled-components"
-import { SlideBar } from "Component/SlideBar"
+import { styled } from "styled-components";
+import { SlideBar } from "Component/SlideBar";
+import Logo1 from 'images/logo.svg';
+
 const StyledMainLayout = styled.div`
     background-color:  #CAEAE6;
     width: 100vw;
@@ -30,11 +32,12 @@ const StyledMainLayout = styled.div`
         width: 100%;
     }
 `
-export const MainLayout = ({imagePath,main_Tittle,sub_Tittle}) => {
+export const MainLayout = () => {
+    
     return <StyledMainLayout>
         <div className="flex--row">
             <div className="sliderBar_Position">
-                <SlideBar imagePath={imagePath} main_Tittle={main_Tittle} sub_Tittle={sub_Tittle}></SlideBar>
+                <SlideBar imagepath1={Logo1} main_Tittle={"MyNFT"} sub_Tittle={"NFT Marketplace"}></SlideBar>
             </div>
             <div className="flex--column">
                 <div className="content_Top">1</div>
