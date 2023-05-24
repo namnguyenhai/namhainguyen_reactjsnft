@@ -15,6 +15,7 @@ const ButtonWrapper = styled.button`
 
 //chidren la phan tu trong the
 export const Button = ({percent,children, onClick}) =>{
+    // const {percent,children, onClick} = props
     return <ButtonWrapper 
     percent={percent}
     onClick={onClick}

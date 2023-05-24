@@ -17,7 +17,7 @@ const StyledCard = styled.div`
         margin-bottom: 24px;
     }
     .amount{
-        font-size: 24px;
+        font-size: 24px; 
         color: #27262E;
     }
     .ammount-wrapper {
