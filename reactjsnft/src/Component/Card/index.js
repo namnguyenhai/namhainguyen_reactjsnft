@@ -1,3 +1,3 @@
 import { Cart } from "./Card";
-
-export {Cart}
+import { CardBalance } from "./CardBalance";
+export {Cart, CardBalance}
