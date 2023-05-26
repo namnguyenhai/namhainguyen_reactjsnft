@@ -1,3 +1,4 @@
 import { Button } from "./Button";
 import { ButtonTopUp } from "./ButtonTopUp";
-export {Button, ButtonTopUp}
+import { ButtonText } from "./ButtonText";
+export {Button, ButtonTopUp, ButtonText}

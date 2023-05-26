@@ -1,5 +1,6 @@
 import { styled } from "styled-components"
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 const StyledButtonTopUp = styled.button`
     width: 196px;
     height: 49px;
@@ -12,7 +13,16 @@ const StyledButtonTopUp = styled.button`
         font-weight: 700;
         
     }
-    
+    .flex--row--btopup{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon_chervon{
+        font-size: 12px;
+        color: black;
+    }
     .circle--plus{
         position: relative;
         background-color: rgba(84, 41, 255, 1);
@@ -36,9 +46,12 @@ const StyledButtonTopUp = styled.button`
 
 export const ButtonTopUp = () => {
     return <StyledButtonTopUp>
-        <div className="circle--plus">
-            <p className="p--plus">+</p>
+        <div className="flex--row--btopup">
+            <div className="circle--plus">
+                <p className="p--plus">+</p>
+            </div>
+            <p className="p--topup">Top Up Balance</p>
+            <FontAwesomeIcon icon={faChevronRight} />
         </div>
-        <p className="p--topup">Top Up Balance</p>
     </StyledButtonTopUp>
 }
