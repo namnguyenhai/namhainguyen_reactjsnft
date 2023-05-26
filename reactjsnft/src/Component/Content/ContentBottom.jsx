@@ -4,6 +4,8 @@ import { PTag } from "Component/CustomHTMLTag";
 import { CardShowItem } from "Component/Card";
 import Monkey1 from "images/content/contentbottom/monkey1.svg";
 import AvatarOwn1 from "images/content/contentbottom/avatarown1.svg";
+import Monkey2 from "images/content/contentbottom/monkey2.svg";
+import AvatarOwn2 from "images/content/contentbottom/avatarown2.svg";
 const StyledContentBottom = styled.div`
     width: 100%;
     height: 60%;
@@ -25,12 +27,40 @@ const StyledContentBottom = styled.div`
     .flex--row--headcont{
         display: flex;
         justify-content: space-between;
+        
     }
     .flex--row--li{
         display:  flex;
         gap: 30px;
     }
+    .flex--row-warp{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 `
+
+const ItemNFT = [
+    {
+        imagesnft: Monkey1,
+        text: "Ape In Love",
+        bid: "Current Bid",
+        avatar: AvatarOwn1,
+        shortname: "@johnti60",
+        numberlikes: "21,5K Likes",
+        numbereth: "9.10"
+    },
+    {
+        imagesnft: Monkey2,
+        text: "Smilling Ape",
+        bid: "Current Bid",
+        avatar: AvatarOwn2,
+        shortname: "@m_alisson",
+        numberlikes: "21,5K Likes",
+        numbereth: "6.12"
+    }
+]
+
 export const ContentBottom = () => {
     return <StyledContentBottom>
         <div className="div__left__contentbottom">
@@ -43,7 +73,12 @@ export const ContentBottom = () => {
                     <PTag text={"Utility"} size={"0.9em"} weight={500} colortext={"#7A797D"}></PTag>
                 </div>
             </div>
-            <CardShowItem src={Monkey1} text={"Ape In Love"} bid={"Current Bid"} imageavatar={AvatarOwn1} shortname={"@johnti60"} numberlikes={"21,5K Likes"} numeth={"9.10"}></CardShowItem>
+            <div className="flex--row-warp">
+                {
+                    ItemNFT.map((item,index) => <CardShowItem key={index} src={item.imagesnft} text={item.text} bid={item.bid} imageavatar={item.avatar} shortname={item.shortname} numberlikes={item.numberlikes} numeth={item.numbereth}></CardShowItem>)
+                }
+            </div>
+            {/* <CardShowItem src={Monkey1} text={"Ape In Love"} bid={"Current Bid"} imageavatar={AvatarOwn1} shortname={"@johnti60"} numberlikes={"21,5K Likes"} numeth={"9.10"}></CardShowItem> */}
         </div>
 
         <div className="div__right__contentbottom">

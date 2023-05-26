@@ -17,6 +17,7 @@ const StyledCardShowItem = styled.div`
         height: 50%;
         width: 100%;
         justify-content: space-between;
+        
     }
     /* .img--height{
         height: 50%;
@@ -31,7 +32,7 @@ const StyledCardShowItem = styled.div`
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 10px;
+        justify-content: space-between;
     }
     .flex--colum--iteminfo--spacebw{
         display: flex;
