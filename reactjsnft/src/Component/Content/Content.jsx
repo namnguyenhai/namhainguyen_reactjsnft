@@ -1,5 +1,7 @@
 import { styled } from "styled-components"
 import { ContentTop } from "."
+import { ContentBottom } from "."
+
 const StyledContent= styled.div`
     width: 100%;
     background-color: #e681e6;
@@ -8,5 +10,7 @@ const StyledContent= styled.div`
 export const Content = () =>{
     return <StyledContent>
         <ContentTop></ContentTop>
+        <ContentBottom></ContentBottom>
+        
     </StyledContent>
 }

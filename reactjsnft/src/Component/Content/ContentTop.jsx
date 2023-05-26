@@ -10,9 +10,9 @@ const StyledContentTop = styled.div`
     
     padding: 20px;
     box-sizing: border-box;
-    gap: 70px;
+    gap: 20px;
     .div__left__contenttop{
-        width: 60%;
+        width: 70%;
         border-radius: 12px;
         background-image: url(${BRPurleImage});
         background-repeat: no-repeat;
@@ -27,21 +27,21 @@ const StyledContentTop = styled.div`
         box-sizing: border-box;
     }
     .div__right__contenttop{
-        width: 40%;
+        width: 30%;
         display: flex;
         flex-flow: row wrap;
-        position: relative;
-
+        column-gap: 20px;
+        
     }
     .cart{
-        /* margin: 4px; */
-        flex: 0 1 calc(40%);
+        margin: 4px;
+        flex: 0 1 calc(50%-8px);
     }
     .p--contenttop-banner{
         margin: 0;
         padding: 0;
         font-weight: 700;
-        font-size: 54px;
+        font-size: 3.37em;
         color: rgba(255, 255, 255, 1);
     }
     .flex--row--bbanner{
@@ -71,9 +71,7 @@ export const ContentTop = () => {
             <div className="cart" >
                 <Cart tittle={"Revenue"} amount={"5.00"} percent={12.3} width={"130px"} height={"130px"} padding={"10px"} height_button={"30px"} width_button={"100px"}></Cart>
             </div>
-            {/* <Cart className="cart" tittle={"Revenue"} amount={"5.00"} percent={12.3} width={"120px"} height={"130px"} padding={"12px"} height_button={"35px"} width_button={"110px"}></Cart>
-            <Cart className="cart" tittle={"Revenue"} amount={"5.00"} percent={12.3} width={"120px"} height={"130px"} padding={"12px"} height_button={"35px"} width_button={"110px"}></Cart>
-            <Cart className="cart" tittle={"Revenue"} amount={"5.00"} percent={12.3} width={"120px"} height={"130px"} padding={"12px"} height_button={"35px"} width_button={"110px"}></Cart> */}
+
         </div>
     </StyledContentTop>
 }
