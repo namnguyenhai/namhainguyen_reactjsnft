@@ -4,7 +4,7 @@ import { ContentBottom } from "."
 
 const StyledContent= styled.div`
     width: 100%;
-    background-color: #e681e6;
+    
     height: 90%;
 `
 export const Content = () =>{

@@ -13,18 +13,7 @@ const StyledMainLayout = styled.div`
         height: 100vh;
         
     }
-    /* .content_Position{
-        width: 100%;
-        background-color: #e681e6;
-        height: 90%;
-        
-    } */
-    /* .content_Top{
-        width: 100%;
-        background-color: red;
-        height: 10%;
-        
-    } */
+
     .flex--row{
         display: flex;
         
