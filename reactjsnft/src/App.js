@@ -21,7 +21,7 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
       </Routes> */}
-      <header className="App-header">
+      {/* <header className="App-header"> */}
         {/* <Button percent={10} onClick={() => console.log('After click')} > click me</Button>
         <Button percent={12.3}>12.3%</Button>
         <Button percent={8.1}>8.1%</Button>
@@ -31,7 +31,7 @@ function App() {
         {/* <Cart tittle={"Revenue"} amount={"5.00"} percent={12.3}></Cart> */}
 
         <MainLayout></MainLayout>
-      </header>
+      {/* </header> */}
     </div>
   );
 }

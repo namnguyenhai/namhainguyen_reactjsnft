@@ -1,6 +1,7 @@
 import { styled } from "styled-components";
 import { SlideBar } from "Component/SlideBar";
 import { Header } from "Component/Header";
+import { Content } from "Component/Content";
 import Logo1 from 'images/logo.svg';
 
 const StyledMainLayout = styled.div`
@@ -12,12 +13,12 @@ const StyledMainLayout = styled.div`
         height: 100vh;
         
     }
-    .content_Position{
+    /* .content_Position{
         width: 100%;
         background-color: #e681e6;
         height: 90%;
         
-    }
+    } */
     /* .content_Top{
         width: 100%;
         background-color: red;
@@ -46,7 +47,8 @@ export const MainLayout = () => {
             <div className="flex--column">
                 {/* <div className="content_Top">1</div> */}
                 <Header></Header>
-                <div className="content_Position">2</div>
+                {/* <div className="content_Position">2</div> */}
+                <Content></Content>
             </div>
         </div>
 
