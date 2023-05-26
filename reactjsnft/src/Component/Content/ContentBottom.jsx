@@ -14,13 +14,13 @@ const StyledContentBottom = styled.div`
     }
     .div__right__contentbottom{
         width: 30%;
-        background-color: #459445;
+        /* background-color: #459445; */
     }
 `
 export const ContentBottom = () => {
     return <StyledContentBottom>
         <div className="div__left__contentbottom">
-
+            <p>Trending Auctions</p>
         </div>
         <div className="div__right__contentbottom">
             <CardTopCreator></CardTopCreator>
