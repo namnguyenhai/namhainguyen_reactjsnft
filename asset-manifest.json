@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/namhainguyen_reactjsnft/static/css/main.f73f5e14.css",
+    "main.js": "/namhainguyen_reactjsnft/static/js/main.9c312340.js",
+    "static/js/787.2af3ca8e.chunk.js": "/namhainguyen_reactjsnft/static/js/787.2af3ca8e.chunk.js",
+    "static/media/avatar5.svg": "/namhainguyen_reactjsnft/static/media/avatar5.263d1850268e765acc850639e89a9edf.svg",
+    "static/media/avatarown2.svg": "/namhainguyen_reactjsnft/static/media/avatarown2.0dcea2d1f30e88cfdd8f8995e76d6a7b.svg",
+    "static/media/avatar3.svg": "/namhainguyen_reactjsnft/static/media/avatar3.c865982eaea7aea2e286a50dd20381d6.svg",
+    "static/media/avatar4.svg": "/namhainguyen_reactjsnft/static/media/avatar4.b722e669ed2c92496e650f9004c7bd4b.svg",
+    "static/media/avatar2.svg": "/namhainguyen_reactjsnft/static/media/avatar2.9c6cedfc07565d65bfc3309d189ac0da.svg",
+    "static/media/avatarown1.svg": "/namhainguyen_reactjsnft/static/media/avatarown1.712bd84b29fd34a20f3118f97955ae35.svg",
+    "static/media/avatar6.svg": "/namhainguyen_reactjsnft/static/media/avatar6.d5b083ace6ea9e52edb3332e3790adee.svg",
+    "static/media/header12.svg": "/namhainguyen_reactjsnft/static/media/header12.866020a6af6a0d5d84c52ac5eb8309b2.svg",
+    "static/media/avatar1.svg": "/namhainguyen_reactjsnft/static/media/avatar1.0a808598394312d80c2f775cb1b110c5.svg",
+    "static/media/rec.svg": "/namhainguyen_reactjsnft/static/media/rec.d55d609a574c4916adc65026f93f68c4.svg",
+    "static/media/monkey2.svg": "/namhainguyen_reactjsnft/static/media/monkey2.7eedbf8346838ce6985e694dc718f3b1.svg",
+    "static/media/monkey1.svg": "/namhainguyen_reactjsnft/static/media/monkey1.9a4f22faf3ef41de425245281ac651b7.svg",
+    "static/media/logo.svg": "/namhainguyen_reactjsnft/static/media/logo.3c4b83ddefb614d83520870ccbc30c95.svg",
+    "static/media/shop.svg": "/namhainguyen_reactjsnft/static/media/shop.d3b5422ed1d5335b1c6e76d0df89d835.svg",
+    "static/media/wallet.svg": "/namhainguyen_reactjsnft/static/media/wallet.7cf6a38a81d0dcb8f133fefe4617b68e.svg",
+    "static/media/heart.svg": "/namhainguyen_reactjsnft/static/media/heart.f60d262dcda14527a8d8339da2bc3032.svg",
+    "static/media/lightmode.svg": "/namhainguyen_reactjsnft/static/media/lightmode.d7c1bbe467aea78d1583921ac165c830.svg",
+    "static/media/square.svg": "/namhainguyen_reactjsnft/static/media/square.acdadae21c34ce587e43b282807370ea.svg",
+    "static/media/hammer.svg": "/namhainguyen_reactjsnft/static/media/hammer.6ca97404a0d68fe001dac02d33016c43.svg",
+    "static/media/doublecircle.svg": "/namhainguyen_reactjsnft/static/media/doublecircle.eebac6e5fab593980a9deebad4fd9fe1.svg",
+    "index.html": "/namhainguyen_reactjsnft/index.html",
+    "static/media/eth.svg": "/namhainguyen_reactjsnft/static/media/eth.399f5021f704634dcd92055827f0f1b7.svg",
+    "static/media/ethereum.svg": "/namhainguyen_reactjsnft/static/media/ethereum.258d57f6f4edb7ffd01536a623348b5b.svg",
+    "static/media/ethmini.svg": "/namhainguyen_reactjsnft/static/media/ethmini.622bb4a21bd856d9b1932e28466b1140.svg",
+    "static/media/Ether.svg": "/namhainguyen_reactjsnft/static/media/Ether.ab53cfbebf9c5dfc55d484dff1ca9618.svg",
+    "static/media/setting.svg": "/namhainguyen_reactjsnft/static/media/setting.a34e85f6c96fd48110746dd7a76dc286.svg",
+    "static/media/history.svg": "/namhainguyen_reactjsnft/static/media/history.db9ceefc9db0ad15794cf97d6398a107.svg",
+    "static/media/Red_Arrow.svg": "/namhainguyen_reactjsnft/static/media/Red_Arrow.bc43a2108b9ca1dbccf9b25f2afc03e7.svg",
+    "static/media/Green_Arrow.svg": "/namhainguyen_reactjsnft/static/media/Green_Arrow.d655e722f11755a4552478eadff77a80.svg",
+    "main.f73f5e14.css.map": "/namhainguyen_reactjsnft/static/css/main.f73f5e14.css.map",
+    "main.9c312340.js.map": "/namhainguyen_reactjsnft/static/js/main.9c312340.js.map",
+    "787.2af3ca8e.chunk.js.map": "/namhainguyen_reactjsnft/static/js/787.2af3ca8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f73f5e14.css",
+    "static/js/main.9c312340.js"
+  ]
+}
